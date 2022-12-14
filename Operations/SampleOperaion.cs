@@ -21,7 +21,7 @@ namespace Stanleybet.API.Operations
             var predefinedListString = ApiConfiguration[Constants.PredefinedList];
 
             List<string> predefinedList = predefinedListString.Split(',').Select(x => x.Trim()).ToList();
-
+            //Commnet for PR
 
             AssertRequiredApiParameters(operationRequest.ApiPropertyBag);
             var response = new OperationResponse();
